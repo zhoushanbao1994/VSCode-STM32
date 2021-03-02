@@ -1,0 +1,36 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/arm-none-eabi/include",
+                "${workspaceFolder}/Core/**",
+                "${workspaceFolder}/Core/Inc",
+                "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc",
+                "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc/Legacy",
+                "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include",
+                "${workspaceFolder}/Drivers/CMSIS/Include"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE",
+                "USE_HAL_DRIVER",
+                "STM32H750xx"
+            ],
+            "compilerPath": "C:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": "",
+                "path": [
+                    "${workspaceFolder}"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
